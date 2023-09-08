@@ -31,6 +31,16 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
+.github-link {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #0066cc;
+  color: #fff;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+  margin-top: 8px;
+}
+
+.github-link:hover {
+  background-color: #0055cc;
 }
